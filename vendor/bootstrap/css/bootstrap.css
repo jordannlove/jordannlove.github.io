@@ -83,6 +83,41 @@ p {
   margin-bottom: 1rem;
 }
 
+[tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/*
+Google fonts:
+font-family: 'Domine', serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+h1 {
+  font-family: 'Domine', serif;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #E71D36;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #124E78;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #124E78
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
