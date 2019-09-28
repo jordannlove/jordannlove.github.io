@@ -1,3 +1,12 @@
+/*
+Google fonts:
+font-family: 'Domine', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+*/
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -6,7 +15,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #E8E9EB;
+  background-color: #f3f7fb;
 }
 
 h1 {
@@ -16,20 +25,31 @@ h1 {
   color: #E71D36;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  color: #124E78;
+  color: #dc8201;
+  font-weight: bold;
+  font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #465155;
+
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: #124E78
+  color: #465155;
 }
 
 .navbar-custom {
     background-color: #124E78;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 /* change the brand and text color */
