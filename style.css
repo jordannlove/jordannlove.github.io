@@ -47,6 +47,26 @@ p {
   color: #465155;
 }
 
+
+/* full background */
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("yellow-flowers.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* navigation bar */
 .navbar-custom {
     background-color: #124E78;
     font-family: 'Alegreya Sans SC', sans-serif;
