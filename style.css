@@ -68,6 +68,12 @@ body, html {
 }
 /* full background */
 
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
 /* navigation bar */
 .navbar-custom {
     background-color: #124E78;
