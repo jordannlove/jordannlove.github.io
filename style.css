@@ -29,8 +29,8 @@ h1 {
 h2 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  color: #dc8201;
-  font-weight: bold;
+  color: #086788;
+  font-weight: bolder;
   font-family: 'Alegreya Sans SC', sans-serif;
 
 }
@@ -48,7 +48,6 @@ p {
   margin-bottom: 1rem;
   color: #465155;
 }
-
 
 /* full background */
 body, html {
@@ -79,7 +78,7 @@ body, html {
 .card-title {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  color: #dc8201;
+  color: #086788;
   font-weight: bold;
   font-family: 'Alegreya Sans SC', sans-serif;
 }
@@ -94,7 +93,7 @@ body, html {
 
 /* navigation bar */
 .navbar-custom {
-    background-color: #124E78;
+    background-color: #086788;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
