@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 nav {
-  background-color: #CCE6F4;
+  background-color: #4BA3C3;
 }
 .navbar-brand img {
   max-height: 50px;
@@ -12,7 +12,7 @@ nav {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 900;
-  color: #683aa4;
+  color: #175676;
 }
 nav ul li a {
   color: #a9a9a9;
@@ -31,7 +31,7 @@ section {
 section h1 {
   /* text-transform: uppercase; */
   font-weight: 900;
-  color: #683aa4;
+  color: #D62839;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -78,7 +78,7 @@ button {
 
 #contact {
   text-align: center;
-  background-color: #683aa4;
+  background-color: #4BA3C3;
   color: white;
 }
 #contact h1 {
