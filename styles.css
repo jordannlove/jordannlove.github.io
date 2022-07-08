@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 nav {
-  background-color: #B6E4F6;
+  background-color: #DEE1FF;
 }
 .navbar-brand img {
   max-height: 50px;
@@ -11,7 +11,7 @@ nav {
 .navbar-brand {
   font-size: 36px;
   /* text-transform: uppercase; */
-  font-family: 'Karma', serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #36382E;
 }
@@ -30,7 +30,7 @@ section {
 }
 section h1 {
   /* text-transform: uppercase; */
-  color: #ED3F1D;
+  color: #007FFF;
   text-align: left;
   margin-bottom: 20px;
   font-family: 'Karma', serif;
@@ -46,13 +46,13 @@ button {
 }
 
 a {
-  color: inherit;
-  text-decoration: inherit;
+  color: #007FFF;
+  font-weight: bolder;
 }
 
 .card-title {
-  color: #ED3F1D;
-  font-family: 'Karma', serif;
+  color: #36382E;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
@@ -68,6 +68,7 @@ a {
 #hero .img-col {
   justify-content: flex-end;
   margin-top: 100px;
+  margin-right: 100px;
 }
 #hero img {
   max-width: 130% !important;
@@ -88,9 +89,9 @@ a {
   margin-top:60px;
 }
 
-#projects .projects {
+/* #projects .projects {
   margin-bottom: 50px;
-}
+} */
 
 
 #contact {
