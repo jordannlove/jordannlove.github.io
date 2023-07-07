@@ -11,9 +11,17 @@ nav {
   padding-bottom: 20px;
 }
 
+.skills {
+  text-align: center;
+}
+
 .img-fluid {
-  padding-right: 20px;
+  padding-right: 40px;
   padding-bottom: 10px;
+}
+
+.hidden-link {
+  text-decoration: none;
 }
 
 .navbar-brand img {
@@ -70,7 +78,7 @@ a {
 }
 
 .card {
-  background-color: #F2F9FC;
+  background-color: #dcdcdc;
 }
 
 #hero .col {
@@ -80,7 +88,7 @@ a {
 }
 #hero .img-col {
   justify-content: flex-end;
-  margin-top: -200px;
+  /* margin-top: -200px; */
   /* margin-right: 150px; */
 }
 #hero img {
@@ -109,10 +117,15 @@ a {
 
 #contact {
   text-align: center;
-  background-color: #B6E4F6;
-  color: #36382E;
+  font-family: 'Sriracha', serif;
+  background-color: black;
+  color: white;
 }
-#contact h1 {
+/* #contact h1 {
   text-align: center;
   color: #EDE6E3;
+} */
+.hidden-link {
+  text-decoration: none;
+  color: white;
 }
