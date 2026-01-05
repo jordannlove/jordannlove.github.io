@@ -1,13 +1,10 @@
 body {
   overflow-x: hidden;
+  padding-top: 65px; 
 }
 
 nav {
   background-color: black;
-}
-
-.descrip {
-  padding-bottom: 20px;
 }
 
 .skills {
@@ -48,14 +45,17 @@ section {
 }
 
 section h1 {
-  color: #007FFF;
+  color: #054f99;
   text-align: left;
-  margin-bottom: 20px;
+  padding-top: 30px;
+  margin-bottom: 30px;
   font-family: "Signika Negative", sans-serif;
   font-weight: 700;
 }
 
 section h5 {
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-family: "Metrophobic", sans-serif;
   font-weight: 700;
 }
@@ -71,7 +71,7 @@ button {
 }
 
 a {
-  color: #007FFF;
+  color: #054f99;
   font-weight: bolder;
 }
 
