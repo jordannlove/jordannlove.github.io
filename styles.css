@@ -1,9 +1,8 @@
 body {
-  display: block;
   overflow-x: hidden;
 }
+
 nav {
-  /* background-color: #DEE1FF; */
   background-color: black;
 }
 
@@ -15,25 +14,23 @@ nav {
   text-align: center;
 }
 
-.img-fluid {
+/* Keep Bootstrap's .img-fluid alone; add hero-specific class */
+.hero-img {
+  max-width: 100%;
+  width: auto;
   padding-right: 40px;
   padding-bottom: 10px;
 }
 
 .hidden-link {
   text-decoration: none;
+  color: white;
 }
 
-.navbar-brand img {
-  max-height: 50px;
-}
 .navbar-brand {
   font-size: 36px;
-  /* text-transform: uppercase; */
-  /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Sriracha', serif;
   font-weight: 700;
-  /* color: #36382E; */
   color: white;
 }
 nav ul li a {
@@ -50,7 +47,6 @@ section {
   padding-bottom: 50px;
 }
 section h1 {
-  /* text-transform: uppercase; */
   color: #007FFF;
   text-align: left;
   margin-bottom: 20px;
@@ -88,12 +84,6 @@ a {
 }
 #hero .img-col {
   justify-content: flex-end;
-  /* margin-top: -200px; */
-  /* margin-right: 150px; */
-}
-#hero img {
-  max-width: 130% !important;
-  width: 130%;
 }
 #hero .card {
   box-shadow: 11px 7px 16px #EDE6E3;
@@ -110,22 +100,9 @@ a {
   margin-top:60px;
 }
 
-/* #projects .projects {
-  margin-bottom: 50px;
-} */
-
-
 #contact {
   text-align: center;
   font-family: 'Sriracha', serif;
   background-color: black;
-  color: white;
-}
-/* #contact h1 {
-  text-align: center;
-  color: #EDE6E3;
-} */
-.hidden-link {
-  text-decoration: none;
   color: white;
 }

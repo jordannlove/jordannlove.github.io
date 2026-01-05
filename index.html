@@ -1,50 +1,44 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jordan Love</title>
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <!-- Bootstrap 5 (CSS) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./styles.css">
 
-    <!-- JavaScript and dependencies -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-    
+    <!-- Bootstrap 5 bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer integrity="" crossorigin="anonymous"></script>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karma:wght@600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Sriracha" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+    <!-- Optional: meta description / social preview -->
+    <meta name="description" content="Jordan Love — Software engineer and designer. Portfolio and work samples.">
   </head>
 
   <body>
     <!-- Navbar -->
-    <nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar">
+    <nav class="py-3 navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <h1 class="navbar-brand"" href="#">
+        <a class="navbar-brand" href="#">
           <!-- <img class="logo" src="./assets/website-logo.png"/> -->
           Jordan Love ✨
-        </h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ms-auto">
             <!-- TODO: Future Menu Items -->
-            <!-- <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li> -->
           </ul>
         </div>
       </div>
@@ -61,8 +55,8 @@
             <p>I'm <strong>versatile, communicative, and eager</strong> to continue learning new technologies.</p>
             <!-- <button type="button" class="btn btn-dark btn-large">Learn more</button> -->
           </div>
-          <div class="col img-col">
-            <img src="./assets/snow-pic2.jpg" class="img-fluid" alt="Picture of Jordan in a red turtleneck in the snow">
+          <div class="col img-col text-end">
+            <img src="./assets/snow-pic2.jpg" class="img-fluid hero-img" alt="Picture of Jordan in a red turtleneck in the snow">
           </div>
         </div>
       </div>
@@ -76,20 +70,10 @@
         <div class="row align-items-center projects">
           <div class="col">
             <h1>Work</h1>
-            <!-- <img src="./assets/neuro-scanners.webp" class="img-fluid" alt="Three NeuroLogica scanners">
-            <img src="./assets/dragonsadv.png" class="img-fluid" alt="Screenshot of Dragon's Adventure title screen"> -->
-            <!-- <img src="./assets/dragonsadv2.png" class="img-fluid" alt="Screenshot of Dragon's Adventure gameplay"> -->
             <h5>Software Engineering, Samsung NeuroLogica</h5>
-            <p class="descrip">Owned web application for servicing mobile CT scanners and was the Agile Scrum Master for a six-person group. The application is web-based and utilizes Angular and .NET.</p>
+            <p class="descrip">Owned web application for servicing mobile CT scanners and was the Agile Scrum Master for a six-person group. The application is web-based and utilizes Angular and .NET...</p>
             <h5>Software Engineering and Design, Senior Project</h5>
-            <p class="descrip">As part of a five-person team, I made a <a href="https://lavenderfog.itch.io/dragons-adventure">Unity game</a> intended to be young children's first venture into using digital technology, based on the look and feel of our favorite childhood PC games.</p>
-            <!-- <p class="descrip">You can download the game <a href="https://lavenderfog.itch.io/dragons-adventure">here.</a></p> -->
-            <!-- <h5>IRIS Hackathon Project</h5>
-              <p class="descrip">A chatbot that used Google Cloud Platform to suggest actions to improve one's mood.</p>
-            <h5>Color Sense Robotics Project</h5>
-              <p class="descrip">An Arduino-powered miniature robot which moves based on the colors it senses.</p>
-            <h5>Heartt Hackathon Project</h5>
-              <p class="descrip">An Android app designed to help community members and local businesses support the homeless population.</p> -->
+            <p class="descrip">As part of a five-person team, I made a <a href="https://lavenderfog.itch.io/dragons-adventure">Unity game</a> intended to be young children's first venture into using a computer...</p>
             <h5>Front-End Development, SS&C Technologies</h5>
               <p class="descrip">As an intern, contributed features and bug fixes for Vue front-end of financial planning software.</p>
             <h5>Front-End Development, Thomson Reuters</h5>
@@ -103,29 +87,18 @@
     <!-- Design section -->
     <section id="design">
       <div class="container">
-        <!-- <div class="row align-items-center projects">
-          <div class="col">
-            <h1>User Interface and Design Samples</h1>
-            <p>Here are some examples of design-focused work, ranging between prototypes, mockups, and graphic elements.</p>
-          </div>
-        </div> -->
-
-
         <!-- Row 0 -->
         <div class="row align-items-center">
           <div class="col">
             <div class="card mb-3">
-              <!-- <img src="./assets/1SRCE_dash.png" class="card-img-top" alt="..."> -->
               <img src="./assets/1SRCE_mockup.png" class="card-img-top" alt="A screenshot of the user interface I designed for the startup called 1SRCE">
               <div class="card-body">
                 <h5 class="card-title">1SRCE User Interface</h5>
-                <p class="card-text">I worked closely with a healthcare technology startup called 1SRCE to create a new user interface for their product. I created detailed mockups in Figma, highlighting interactions while also determining the color scheme, iconography, and typography for the product, while also working within Material Design guidelines. Additionally, I compiled this information into a simplified style guide to allow for easy handoff to the developers.</p>
-                <!-- <p class="card-text"><small class="text-muted">React Native, Java, REST Api</small></p> -->
+                <p class="card-text">I worked closely with a healthcare technology startup called 1SRCE to create a new user interface for their product. I created detailed mockups in Figma, high-fidelity prototypes, and design specifications...</p>
               </div>
             </div>
           </div>
         </div>
-
 
         <!-- Row 1 -->
         <div class="row align-items-center">
@@ -134,9 +107,8 @@
               <img src="./assets/lynnette_figma.png" class="card-img-top" alt="A screenshot of the prototype I created in Figma for my research at Carnegie Mellon University">
               <div class="card-body">
                 <h5 class="card-title">Carnegie Mellon Lynnette Dashboard</h5>
-                <p class="card-text">I researched middle school users of Lynnette algebra tutoring software by conducting user interviews and tests of a Marvel prototype. I also created a high-fidelity Figma prototype of the dashboard.</p>
-                <p class="card-text">You can read more about my experience <a href="https://jordannlove.medium.com/my-hcii-reu-experience-2ac7cdc0776a">here.</a>
-                <!-- <p class="card-text"><small class="text-muted">Google Api, Golang, Swift</small></p> -->
+                <p class="card-text">I researched middle school users of Lynnette algebra tutoring software by conducting user interviews and tests of a Marvel prototype. I also created a high-fi prototype for testing...</p>
+                <p class="card-text">You can read more about my experience <a href="https://jordannlove.medium.com/my-hcii-reu-experience-2ac7cdc0776a">here.</a></p>
               </div>
             </div>
           </div>
@@ -145,13 +117,11 @@
               <img src="./assets/happyearth.png" class="card-img-top" alt="A screenshot of the user interface I designed for my Happy Earth human-computer interaction project">
               <div class="card-body">
                 <h5 class="card-title">Happy Earth HCI Project</h5>
-                <p class="card-text">I used the human-centered design process to create wireframes, high-fidelity prototypes, and usability tests for a recycling app intended for an emerging market (a “Next Billion Users” population).</p>
-                <!-- <p class="card-text"><small class="text-muted">Flutter, Machine Learning Algrithms, Python, NodeJS</small></p> -->
+                <p class="card-text">I used the human-centered design process to create wireframes, high-fidelity prototypes, and usability tests for a recycling app intended for an emerging market...</p>
               </div>
             </div>
           </div>
         </div>
-
 
         <!-- Row 2 -->
         <div class="row align-items-center">
@@ -160,8 +130,6 @@
               <img src="./assets/hsd_logo_cmyk.jpg" class="card-img-top" alt="The submarine logo I designed for the 'Under the Sea' High School Design Competition">
               <div class="card-body">
                 <h5 class="card-title">High School Design Competition Logo</h5>
-                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-                <!-- <p class="card-text"><small class="text-muted">React Native, Java, REST Api</small></p> -->
               </div>
             </div>
           </div>
@@ -170,8 +138,6 @@
               <img src="./assets/wingfield-honey-final.jpg" class="card-img-top" alt="The oval-shaped label I designed for Coyne Creek Maidens honey">
               <div class="card-body">
                 <h5 class="card-title">Local Honey Jar Label</h5>
-                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-                <!-- <p class="card-text"><small class="text-muted">Kotlin, REST Api</small></p> -->
               </div>
             </div>
           </div>
@@ -180,8 +146,6 @@
               <img src="./assets/logo2.jpg" class="card-img-top" alt="A colorful geographic logo I designed for the KU Tech Summit">
               <div class="card-body">
                 <h5 class="card-title">KU Tech Summit Logo</h5>
-                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-                <!-- <p class="card-text"><small class="text-muted">Kotlin, REST Api</small></p> -->
               </div>
             </div>
           </div>
@@ -260,14 +224,13 @@
           <div class="col text-col">
             <h1>Leadership</h1>
             <h5>FIRST Robotics Mentor</h5>
-            <p> As someone who was heavily involved in robotics in high school, I wanted to bring that experience to others. During the 2023 season, I attended <a href="https://www.firstinspires.org/robotics/frc">FIRST Robotics</a> meetings at Melrose High School and assisted with branding and logo design, robot brainstorming, and team logistics. My goal was to support students in taking the lead themselves, and to help them feel confident in their decisions.</p>
+            <p> As someone who was heavily involved in robotics in high school, I wanted to bring that experience to others. During the 2023 season, I attended <a href="https://www.firstinspires.org/">FIRST events</a> and mentored students...</p>
             <h5>KU Women in Computing President</h5>
-            <p> I joined <a href="https://www.instagram.com/ku_wic/">Women in Computing</a> my freshman year of college when it first started having meetings and only comprised of a few members. By the time I graduated, the group regularly had 30-40 members at meetings. As the President, I organized meetings, planned events for members, and facilitated relationships with companies, speakers, the Association for Computing Machinery, and the KU School of Engineering.</p>
+            <p> I joined <a href="https://www.instagram.com/ku_wic/">Women in Computing</a> my freshman year of college when it first started having meetings and only comprised of a few members...</p>
             <h5>Senior Design Project</h5>
-            <p>I joined four other senior Computer Science students to create a fun, wholesome game for young children with little-to-no experience using a computer. We recruited illustrators, a musician, voice actors, and more to help bring the game to life, and we used Unity and C# for the development. As a result of our efforts, we received the Niehaus Design Award, which was voted on by our class of Computer Science seniors as the capstone which best demonstrated "outstanding workmanship and innovation".</p>
+            <p>I joined four other senior Computer Science students to create a fun, wholesome game for young children with little-to-no experience using a computer...</p>
             <h5>SELF Fellowship</h5>
-            <p>Throughout college, I was a member of the Self Engineering Leadership Fellowship, whose goal is “to develop passionate engineering and computer science graduates who... guide the technology-based corporations of tomorrow.” Some activities I participated in as a Fellow include running the high school design competition at the School of Engineering, planning volunteer opportunities for Fellows in the EECS department, and competing in two business case competitions (one of which my team was a finalist).</p>
-            <!-- <button type="button" class="btn btn-dark btn-large">Let's meet</button> -->
+            <p>Throughout college, I was a member of the Self Engineering Leadership Fellowship, whose goal is “to develop passionate engineering and computer science graduates who... guide the community.”</p>
           </div>
         </div>
       </div>
@@ -280,7 +243,6 @@
         <div class="row align-items-center">
           <div class="col">
             <h3><a class="hidden-link" href="mailto:jnlove314@gmail.com">Contact📧</a></h3>
-            <!-- <p></p> -->
           </div>
         </div>
       </div>
