@@ -15,6 +15,8 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Metrophobic&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Karma:wght@600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
@@ -27,210 +29,94 @@
     <!-- Navbar -->
     <nav class="py-3 navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <!-- <img class="logo" src="./assets/website-logo.png"/> -->
-          Jordan Love ✨
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <!-- TODO: Future Menu Items -->
-          </ul>
-        </div>
+        <h1 class="navbar-brand">Jordan Love - Portfolio</h1>
       </div>
     </nav>
 
-    <!-- Hero section -->
-    <section id="hero">
+    <!-- <section id="title">
       <div class="container">
-        <div class="row align-items-center">
+        <h1>Work</h1>
+      </div>
+    </section> -->
+
+    <section id="projects">
+      <div class="container">
+        <!-- Dragon's Adventure -->
+        <div class="row">
+          <h1>Dragon's Adventure Children's Video Game</h1>
           <div class="col">
-            <h1>Hi! My name is<br>Jordan.</h1>
-            <p>I'm a Kansas City-area Software Engineer and Designer with experience working on medical, financial, and legal software.</p>
-            <p>I'm <strong>versatile, communicative, and eager</strong> to continue learning new technologies.</p>
-            <!-- <button type="button" class="btn btn-dark btn-large">Learn more</button> -->
+            <img src="./assets/DA-title-screen.png" class="card-img-top" alt="A screenshot of the title screen in Dragon's Adventure">
           </div>
-          <div class="col img-col text-end">
-            <img src="./assets/snow-pic2.jpg" class="img-fluid hero-img" alt="Picture of Jordan in a red turtleneck in the snow">
+          <div class="col">
+            <img src="./assets/DA-kingdom-area.png" class="card-img-top" alt="A screenshot of the kingdom area in Dragon's Adventure">
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col">
+            <h5>User Researcher and Software Engineer</h5>
+            <p class="descrip">During the pandemic, Dr. John Gibbons, a University of Kansas 
+              Computer Science professor, approached my capstone class lamenting that wholesome 
+              computer games for his young child were almost non-existent. I was eager to take on 
+              the project with my team. My roles were primarily doing user research and writing 
+              the code for the “kingdom” area of the game. The users we interfaced with were the 
+              parents of young children six and under, including Dr. Gibbons. I researched example 
+              computer games from the early 2000s, as well as currently available computer games 
+              marketed for children, and came up with questions to determine the most 
+              important pain points with the existing games.</p>
+            <p class="descrip">I determined that the largest issues with the existing games were 
+              pacing, the reading level required, and getting “stuck” by in-game challenges that 
+              were too difficult, or by paywalls. These led to actionable takeaways including:</p>
+            <ul>
+              <li>Gentle game pace</li>
+              <li>Limit the words on the screen, and have a voice actor read them aloud</li>
+              <li>Use large buttons and limit the fine motor skills required (most children were 
+                just beginning to use a mouse)</li>
+              <li>Allow players to escape from challenges they are stuck on</li>
+            </ul>
+            <p class="descrip">After Dragon’s Adventure was completed, Dr. Gibbons’ daughter was 
+              able to successfully playtest the game, and the success of the game led to the 
+              <a href="https://peer.asee.org/a-retrospective-on-creating-a-video-game-course-to-promote-interdisciplinary-collaboration">creation of a new elective course</a> 
+              at the University of Kansas.</p>
+            <p class="descrip">If I could redo the project with more time, I would create 
+              prototypes for important areas of the game and observe how preschool 
+              children interact with the prototypes.</p>            
+          </div>
+        </div>
+
+        <!-- Carnegie Mellon Lynnette Dashboard -->
+         <div class="row">
+          <h1>Carnegie Mellon Algebra Learning Dashboard</h1>
+          <div class="col">
+            <img src="./assets/lynnette_figma.png" class="card-img-top" alt="A screenshot of the prototype I created in Figma for my research at Carnegie Mellon">
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col">
+            <h5>Human-Computer Interaction Researcher</h5>
+            <p class="descrip">During my summer as a Human-Computer Interaction Researcher at Carnegie Mellon University, I was tasked with designing and testing the Lynnette Dashboard, an algebra learning tool aimed at middle school students. The goal was to create a dashboard that was engaging and effective for this specific age group.</p>
+            <p class="descrip">My process involved first developing a mid-fidelity prototype of the dashboard. I then conducted user interviews and usability tests directly with middle school students to gather feedback on the design. Incorporating these findings, I built a final high-fidelity prototype in Figma which was later used for further research.</p>
+            <p class="descrip">The project culminated in a working high-fidelity prototype of the Lynnette Dashboard and a presentation of the user research findings to the Human-Computer Interaction Institute.</p>            
+          </div>
+        </div>
+
+        <!-- Coyne Creek Maidens Honey Logo -->
+         <div class="row">
+          <h1>Kansas Honey Jar Label</h1>
+          <div class="w-75">
+            <img src="./assets/wingfield-honey-final.jpg" class="card-img-top" alt="A screenshot of the prototype I created in Figma for my research at Carnegie Mellon">
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col">
+            <h5>Graphic Designer</h5>
+            <p class="descrip">Designed a rustic honey jar label for a local Kansas beekeeper, incorporating Coyne Creek as requested. I had a good amount of creative freedom with this project.</p>            
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Technical projects section -->
-    <section id="tech">
-      <div class="container">
-        <div class="row align-items-center projects">
-          <div class="col">
-            <h1>Work</h1>
-            <h5>Software Engineering, Samsung NeuroLogica</h5>
-            <p class="descrip">Owned web application for servicing mobile CT scanners and was the Agile Scrum Master for a six-person group. The application is web-based and utilizes Angular and .NET.</p>
-            <h5>Software Engineering and Design, Senior Project</h5>
-            <p class="descrip">As part of a five-person team, I made a <a href="https://lavenderfog.itch.io/dragons-adventure">Unity game</a> intended to be young children's first venture into using digital technology, based on the look and feel of our favorite childhood PC games.</p>
-            <h5>Front-End Development, SS&C Technologies</h5>
-              <p class="descrip">As an intern, contributed features and bug fixes for Vue front-end of financial planning software.</p>
-            <h5>Front-End Development, Thomson Reuters</h5>
-              <p class="descrip">As an intern, added features to dashboard of legal software; revised internal e-learning modules to be more user-friendly.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Design section -->
-    <section id="design">
-      <div class="container">
-        <!-- Row 0 -->
-        <div class="row align-items-center">
-          <div class="col">
-            <div class="card mb-3">
-              <img src="./assets/1SRCE_mockup.png" class="card-img-top" alt="A screenshot of the user interface I designed for the startup called 1SRCE">
-              <div class="card-body">
-                <h5 class="card-title">1SRCE User Interface</h5>
-                <p class="card-text">I worked closely with a healthcare technology startup called 1SRCE to create a new user interface for their product. I created detailed mockups in Figma, highlighting interactions while also determining the color scheme, iconography, and typography for the product, while also working within Material Design guidelines. Additionally, I compiled this information into a simplified style guide to allow for easy handoff to the developers.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Row 1 -->
-        <div class="row align-items-center">
-          <div class="col">
-            <div class="card mb-3">
-              <img src="./assets/lynnette_figma.png" class="card-img-top" alt="A screenshot of the prototype I created in Figma for my research at Carnegie Mellon University">
-              <div class="card-body">
-                <h5 class="card-title">Carnegie Mellon Lynnette Dashboard</h5>
-                <p class="card-text">I researched middle school users of Lynnette algebra tutoring software by conducting user interviews and tests of a Marvel prototype. I also created a high-fidelity Figma prototype of the dashboard.</p>
-                <p class="card-text">You can read more about my experience <a href="https://jordannlove.medium.com/my-hcii-reu-experience-2ac7cdc0776a">here.</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card mb-3">
-              <img src="./assets/happyearth.png" class="card-img-top" alt="A screenshot of the user interface I designed for my Happy Earth human-computer interaction project">
-              <div class="card-body">
-                <h5 class="card-title">Happy Earth HCI Project</h5>
-                <p class="card-text">I used the human-centered design process to create wireframes, high-fidelity prototypes, and usability tests for a recycling app intended for an emerging market (a “Next Billion Users” population).</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Row 2 -->
-        <div class="row align-items-center">
-          <div class="col">
-            <div class="card mb-3">
-              <img src="./assets/hsd_logo_cmyk.jpg" class="card-img-top" alt="The submarine logo I designed for the 'Under the Sea' High School Design Competition">
-              <div class="card-body">
-                <h5 class="card-title">High School Design Competition Logo</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card mb-3">
-              <img src="./assets/wingfield-honey-final.jpg" class="card-img-top" alt="The oval-shaped label I designed for Coyne Creek Maidens honey">
-              <div class="card-body">
-                <h5 class="card-title">Local Honey Jar Label</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card mb-3">
-              <img src="./assets/logo2.jpg" class="card-img-top" alt="A colorful geographic logo I designed for the KU Tech Summit">
-              <div class="card-body">
-                <h5 class="card-title">KU Tech Summit Logo</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Design section -->
-
-    <!-- Tools section -->
-    <section id="tools">
-      <div class="container">
-        <div class="row cards top-buffer">
-          <h1>Skills</h1>
-          <div class="col-md-4 d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-              <div class="skills">
-                <br>
-                <h5 class="card-title">Technologies and Languages</h5>
-                <br>
-                <p class="card-text">Angular</p>
-                <p class="card-text">C#/C++</p>
-                <p class="card-text">.NET</p>
-                <p class="card-text">Bootstrap</p>
-                <p class="card-text">Python</p>
-                <p class="card-text">WPF</p>
-                <p class="card-text">SQL</p>
-                <p class="card-text">Vue</p>
-                <p class="card-text">Unity</p>
-                <br>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-              <div class="skills">
-                <br>
-                <h5 class="card-title">Prototyping and<br>Design</h5>
-                <br>
-                <p class="card-text">Material Design</p>
-                <p class="card-text">Figma</p>
-                <p class="card-text">Adobe Illustrator</p>
-                <p class="card-text">Adobe XD</p>
-                <p class="card-text">InVision</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-              <div class="skills">
-                <br>
-                <h5 class="card-title">Course Highlights</h5>
-                <br>
-                <p class="card-text">Angular (post-grad)</p>
-                <p class="card-text">Human-Computer Interaction</p>
-                <p class="card-text">Mobile Development</p>
-                <p class="card-text">Databases</p>
-                <p class="card-text">Psychology</p>
-                <p class="card-text">Anthropology</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End tools section -->
-
-    <!-- About me section -->
-    <section id="about-us">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col">
-            <img src="./assets/me_flowers.jpeg" class="img-fluid" alt="A picture I took of my skates next to yellow flowers">
-          </div>
-          <div class="col text-col">
-            <h1>Leadership</h1>
-            <h5>FIRST Robotics Mentor</h5>
-            <p> As someone who was heavily involved in robotics in high school, I wanted to bring that experience to others. During the 2023 season, I attended <a href="https://www.firstinspires.org/robotics/frc">FIRST Robotics</a> meetings at Melrose High School and assisted with branding and logo design, robot brainstorming, and team logistics. My goal was to support students in taking the lead themselves, and to help them feel confident in their decisions.</p>
-            <h5>KU Women in Computing President</h5>
-            <p> I joined <a href="https://www.instagram.com/ku_wic/">Women in Computing</a> my freshman year of college when it first started having meetings and only comprised of a few members. By the time I graduated, the group regularly had 30-40 members at meetings. As the President, I organized meetings, planned events for members, and facilitated relationships with companies, speakers, the Association for Computing Machinery, and the KU School of Engineering.</p>
-            <h5>Senior Design Project</h5>
-            <p>I joined four other senior Computer Science students to create a fun, wholesome game for young children with little-to-no experience using a computer. We recruited illustrators, a musician, voice actors, and more to help bring the game to life, and we used Unity and C# for the development. As a result of our efforts, we received the Niehaus Design Award, which was voted on by our class of Computer Science seniors as the capstone which best demonstrated "outstanding workmanship and innovation".</p>
-            <h5>SELF Fellowship</h5>
-            <p>Throughout college, I was a member of the Self Engineering Leadership Fellowship, whose goal is “to develop passionate engineering and computer science graduates who... guide the technology-based corporations of tomorrow.” Some activities I participated in as a Fellow include running the high school design competition at the School of Engineering, planning volunteer opportunities for Fellows in the EECS department, and competing in two business case competitions (one of which my team was a finalist).</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End About me section -->
 
     <!-- Contact section -->
     <section id="contact">

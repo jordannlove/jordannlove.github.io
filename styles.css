@@ -1,20 +1,16 @@
 body {
   overflow-x: hidden;
+  padding-top: 65px; 
 }
 
 nav {
   background-color: black;
 }
 
-.descrip {
-  padding-bottom: 20px;
-}
-
 .skills {
   text-align: center;
 }
 
-/* Keep Bootstrap's .img-fluid alone; add hero-specific class */
 .hero-img {
   max-width: 100%;
   width: auto;
@@ -29,8 +25,9 @@ nav {
 
 .navbar-brand {
   font-size: 36px;
-  font-family: 'Sriracha', serif;
+  font-family: "Crimson Text", serif;
   font-weight: 700;
+  font-style: italic;
   color: white;
 }
 nav ul li a {
@@ -46,30 +43,41 @@ section {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 section h1 {
-  color: #007FFF;
+  color: #054f99;
   text-align: left;
-  margin-bottom: 20px;
-  font-family: 'Karma', serif;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Signika Negative", sans-serif;
   font-weight: 700;
 }
+
+section h5 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Metrophobic", sans-serif;
+  font-weight: 700;
+}
+
 section p {
   font-size: 16px;
   font-weight: 300;
 }
+
 button {
   max-width: 50%;
   border-radius: 50px !important;
 }
 
 a {
-  color: #007FFF;
+  color: #054f99;
   font-weight: bolder;
 }
 
 .card-title {
   color: #36382E;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Metrophobic", sans-serif;
   font-weight: 700;
 }
 
@@ -102,7 +110,9 @@ a {
 
 #contact {
   text-align: center;
-  font-family: 'Sriracha', serif;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: italic;
   background-color: black;
   color: white;
 }
